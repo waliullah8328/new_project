@@ -44,7 +44,7 @@ class _TimePickerScreenState extends State<TimePickerScreen> {
 
               ),
               onTap: () async {
-                DateTime? dateTime = await showDatePicker(context: context,initialDate: DateTime.now(), firstDate: DateTime(1995), lastDate: DateTime(2024));
+                DateTime? dateTime = await showDatePicker(context: context,initialDate: DateTime.now(), firstDate: DateTime(1995), lastDate: DateTime(2026));
 
                 String formattedDate = DateFormat("yyyy-MMM- dd").format(dateTime!);
 

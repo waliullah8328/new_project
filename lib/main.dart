@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Modelule-14/class14_signup_screen.dart';
 import 'Module 11 Class 12/class12.dart';
 import 'Module 11 Class 12/switch.dart';
 import 'Module 11 Class 12/tabbar.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ImagePickerScreen(),
+      home: SignUpScreen(),
     );
   }
 }
