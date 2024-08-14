@@ -8,6 +8,7 @@ import 'Module 13/image_picker.dart';
 import 'Module 13/layout_builder.dart';
 import 'Module 13/orientation_builder.dart';
 import 'Module 13/time_picker.dart';
+import 'module 15/animation.dart';
 
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignUpScreen(),
+      home: PhysicsBasedAnimation(),
     );
   }
 }
