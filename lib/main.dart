@@ -1,14 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Modelule-14/class14_signup_screen.dart';
-import 'Module 11 Class 12/class12.dart';
-import 'Module 11 Class 12/switch.dart';
-import 'Module 11 Class 12/tabbar.dart';
-import 'Module 13/class13.dart';
-import 'Module 13/image_picker.dart';
-import 'Module 13/layout_builder.dart';
-import 'Module 13/orientation_builder.dart';
-import 'Module 13/time_picker.dart';
-import 'module 15/animation.dart';
+
+import 'module 15/tween_Animation.dart';
 
 
 void main() {
@@ -23,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PhysicsBasedAnimation(),
+      home: TweenAnimation(),
     );
   }
 }

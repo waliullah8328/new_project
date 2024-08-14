@@ -17,7 +17,7 @@ class _PhysicsBasedAnimationState extends State<PhysicsBasedAnimation> with Sing
     // TODO: implement initState
     super.initState();
     animationController = AnimationController(vsync: this,lowerBound: 0,upperBound: double.infinity);
-    simulation = SpringSimulation(SpringDescription(mass: 0.5, stiffness: 100, damping: 10), 0, 300, 0);
+    simulation = SpringSimulation(SpringDescription(mass: 0.7, stiffness: 200, damping: 1), 0, 300,0);
     animationController.animateWith(simulation);
   }
 
@@ -34,9 +34,10 @@ class _PhysicsBasedAnimationState extends State<PhysicsBasedAnimation> with Sing
                 width: 100,
                 height: 100,
                 decoration: const BoxDecoration(
-                  color: Colors.red,
+                  
                   shape: BoxShape.circle
                 ),
+                child: Image(image: AssetImage("asset/Football.jpg")),
               ),
             );
           },
